@@ -1,0 +1,260 @@
+[debug] [2023-03-12T11:12:13.192Z] ----------------------------------------------------------------------
+[debug] [2023-03-12T11:12:13.194Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\91869\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-03-12T11:12:13.195Z] CLI Version:   11.24.1
+[debug] [2023-03-12T11:12:13.195Z] Platform:      win32
+[debug] [2023-03-12T11:12:13.195Z] Node Version:  v16.13.1
+[debug] [2023-03-12T11:12:13.196Z] Time:          Sun Mar 12 2023 16:42:13 GMT+0530 (India Standard Time)
+[debug] [2023-03-12T11:12:13.196Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-12T11:12:13.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-12T11:12:13.367Z] > authorizing via signed-in user (prachidadhich49@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-03-12T11:12:13.396Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-12T11:12:13.396Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-12T11:12:13.397Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-03-12T11:12:13.410Z] [hub] writing locator at C:\Users\91869\AppData\Local\Temp\hub-handicrafts-8852a.json
+[debug] [2023-03-12T11:12:13.448Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-12T11:12:13.449Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-12T11:12:13.449Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-12T11:12:13.457Z] defaultcredentials: writing to file C:\Users\91869\AppData\Roaming\firebase\prachidadhich49_gmail_com_application_default_credentials.json
+[debug] [2023-03-12T11:12:13.463Z] Setting GAC to C:\Users\91869\AppData\Roaming\firebase\prachidadhich49_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\91869\\AppData\\Roaming\\firebase\\prachidadhich49_gmail_com_application_default_credentials.json"}}
+[debug] [2023-03-12T11:12:13.466Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a/adminSdkConfig [none]
+[debug] [2023-03-12T11:12:13.918Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a/adminSdkConfig 200
+[debug] [2023-03-12T11:12:13.919Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a/adminSdkConfig {"projectId":"handicrafts-8852a","storageBucket":"handicrafts-8852a.appspot.com"}
+[debug] [2023-03-12T11:12:13.975Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/handicrafts-8852a/sites 
+[debug] [2023-03-12T11:12:15.548Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/handicrafts-8852a/sites 200
+[debug] [2023-03-12T11:12:15.549Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/handicrafts-8852a/sites {"sites":[{"name":"projects/handicrafts-8852a/sites/handicrafts-8852a","defaultUrl":"https://handicrafts-8852a.web.app","appId":"1:545111139092:web:21e6dc6b69fe700c2a5801","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-12T11:12:15.550Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a/webApps/1:545111139092:web:21e6dc6b69fe700c2a5801/config [none]
+[debug] [2023-03-12T11:12:16.985Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a/webApps/1:545111139092:web:21e6dc6b69fe700c2a5801/config 200
+[debug] [2023-03-12T11:12:16.986Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a/webApps/1:545111139092:web:21e6dc6b69fe700c2a5801/config {"projectId":"handicrafts-8852a","appId":"1:545111139092:web:21e6dc6b69fe700c2a5801","storageBucket":"handicrafts-8852a.appspot.com","apiKey":"AIzaSyBtFkYlBD4LarrZpjWefOBQQWa77bZjxFI","authDomain":"handicrafts-8852a.firebaseapp.com","messagingSenderId":"545111139092","measurementId":"G-TP8R26N2DM"}
+[debug] [2023-03-12T11:12:17.003Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a [none]
+[debug] [2023-03-12T11:12:17.496Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a 200
+[debug] [2023-03-12T11:12:17.498Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/handicrafts-8852a {"projectId":"handicrafts-8852a","projectNumber":"545111139092","displayName":"handicrafts","name":"projects/handicrafts-8852a","resources":{"hostingSite":"handicrafts-8852a"},"state":"ACTIVE","etag":"1_6e179554-ef28-41b6-84b9-026ccacce37e"}
+[info] i  hosting[handicrafts-8852a]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[handicrafts-8852a]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.11.4.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.4.zip..."}}
+[debug] [2023-03-12T11:12:17.632Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.4.zip 
+[debug] [2023-03-12T11:12:18.106Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.4.zip 200
+[debug] [2023-03-12T11:12:18.107Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.4.zip [stream]
+[debug] [2023-03-12T11:12:21.183Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-12T11:12:21.183Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-12T11:12:21.183Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\91869\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\91869\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-12T11:12:21.737Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-03-12T11:12:21.737Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\" for Cloud Functions..."}}
+[debug] [2023-03-12T11:12:21.776Z] Validating nodejs source
+[debug] [2023-03-12T11:12:23.783Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0",
+    "stripe": "^11.14.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-12T11:12:23.784Z] Building nodejs source
+[debug] [2023-03-12T11:12:23.785Z] Failed to find version of module node: reached end of search path C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules
+[info] +  functions: Using node@16 from host. 
+[debug] [2023-03-12T11:12:23.792Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-12T11:12:23.812Z] Found firebase-functions binary at 'C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-12T11:12:24.381Z] Serving at port 8685
+
+[debug] [2023-03-12T11:12:24.846Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-12T11:12:24.859Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] "GET /static/css/main.656d90c5.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] \"GET /static/css/main.656d90c5.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] "GET /static/js/main.3a5ed2c2.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] \"GET /static/js/main.3a5ed2c2.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Mar/2023:11:17:57 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\""}}
+[debug] [2023-03-12T11:28:52.028Z] File C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-03-12T11:28:53.031Z] Validating nodejs source
+[debug] [2023-03-12T11:28:56.466Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0",
+    "stripe": "^11.14.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-12T11:28:56.467Z] Building nodejs source
+[debug] [2023-03-12T11:28:56.468Z] Failed to find version of module node: reached end of search path C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules
+[info] +  functions: Using node@16 from host. 
+[debug] [2023-03-12T11:28:56.471Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-12T11:28:56.488Z] Found firebase-functions binary at 'C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-12T11:28:57.131Z] Serving at port 8879
+
+[debug] [2023-03-12T11:28:57.919Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-12T11:28:57.925Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/handicrafts-8852a/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/handicrafts-8852a/us-central1/api)."}}
+[debug] [2023-03-12T11:30:54.352Z] [work-queue] {"queuedWork":["/handicrafts-8852a/us-central1/api-2023-03-12T11:30:54.351Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T11:30:54.353Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/handicrafts-8852a/us-central1/api-2023-03-12T11:30:54.351Z"],"workRunningCount":1}
+[debug] [2023-03-12T11:30:54.356Z] Accepted request GET /handicrafts-8852a/us-central1/api --> us-central1-api
+[debug] [2023-03-12T11:30:54.373Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-12T11:30:54.375Z] [functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/"}}
+[debug] [2023-03-12T11:30:54.424Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-03-12T11:30:54.427Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-03-12T11:30:57.098Z] [runtime-status] [15504] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-03-12T11:30:57.100Z] [runtime-status] [15504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-12T11:30:57.100Z] [runtime-status] [15504] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-03-12T11:30:57.102Z] [runtime-status] [15504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-12T11:30:57.562Z] [runtime-status] [15504] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-03-12T11:30:57.563Z] [runtime-status] [15504] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-03-12T11:30:57.565Z] [runtime-status] [15504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-12T11:30:57.568Z] [runtime-status] [15504] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-03-12T11:30:57.577Z] [runtime-status] [15504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-12T11:30:57.578Z] [runtime-status] [15504] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.5.0","resolution":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-03-12T11:30:57.857Z] [runtime-status] [15504] Functions runtime initialized. {"cwd":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions","node_version":"16.13.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\91869\\\\Desktop\\\\REACTTT\\\\SC Hack\\\\artisans\\\\functions\",\"node_version\":\"16.13.1\"}"}}
+[debug] [2023-03-12T11:30:57.858Z] [runtime-status] [15504] Listening to port: \\?\pipe\fire_emu_b75d73dccae8e932 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [15504] Listening to port: \\\\?\\pipe\\fire_emu_b75d73dccae8e932"}}
+[debug] [2023-03-12T11:30:57.985Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE"}}
+[debug] [2023-03-12T11:30:57.986Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-12T11:30:57.989Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 29.7947ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 29.7947ms"}}
+[debug] [2023-03-12T11:30:58.020Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE"}}
+[debug] [2023-03-12T11:30:58.021Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T11:30:58.181Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2023-03-12T12:43:29.887Z] [work-queue] {"queuedWork":["/handicrafts-8852a/us-central1/api-2023-03-12T12:43:29.881Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T12:43:29.904Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/handicrafts-8852a/us-central1/api-2023-03-12T12:43:29.881Z"],"workRunningCount":1}
+[debug] [2023-03-12T12:43:29.906Z] Accepted request GET /handicrafts-8852a/us-central1/api --> us-central1-api
+[debug] [2023-03-12T12:43:29.970Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-12T12:43:29.971Z] [functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/"}}
+[debug] [2023-03-12T12:43:29.972Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-12T12:43:29.977Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 93.0669ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 93.0669ms"}}
+[debug] [2023-03-12T12:43:30.071Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE"}}
+[debug] [2023-03-12T12:43:30.071Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T12:43:35.087Z] [work-queue] {"queuedWork":["/handicrafts-8852a/us-central1/api-2023-03-12T12:43:35.087Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T12:43:35.088Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/handicrafts-8852a/us-central1/api-2023-03-12T12:43:35.087Z"],"workRunningCount":1}
+[debug] [2023-03-12T12:43:35.088Z] Accepted request GET /handicrafts-8852a/us-central1/api --> us-central1-api
+[debug] [2023-03-12T12:43:35.101Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-12T12:43:35.103Z] [functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/"}}
+[debug] [2023-03-12T12:43:35.103Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-12T12:43:35.106Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 40.6166ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 40.6166ms"}}
+[debug] [2023-03-12T12:43:35.148Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE"}}
+[debug] [2023-03-12T12:43:35.149Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T12:43:39.621Z] [work-queue] {"queuedWork":["/handicrafts-8852a/us-central1/api-2023-03-12T12:43:39.621Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T12:43:39.622Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/handicrafts-8852a/us-central1/api-2023-03-12T12:43:39.621Z"],"workRunningCount":1}
+[debug] [2023-03-12T12:43:39.622Z] Accepted request GET /handicrafts-8852a/us-central1/api --> us-central1-api
+[debug] [2023-03-12T12:43:39.633Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-12T12:43:39.634Z] [functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/"}}
+[debug] [2023-03-12T12:43:39.634Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-12T12:43:39.636Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 11.2934ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 11.2934ms"}}
+[debug] [2023-03-12T12:43:39.650Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE"}}
+[debug] [2023-03-12T12:43:39.651Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T13:23:32.259Z] [work-queue] {"queuedWork":["/handicrafts-8852a/us-central1/api-2023-03-12T13:23:32.257Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T13:23:32.263Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/handicrafts-8852a/us-central1/api-2023-03-12T13:23:32.257Z"],"workRunningCount":1}
+[debug] [2023-03-12T13:23:32.264Z] Accepted request GET /handicrafts-8852a/us-central1/api --> us-central1-api
+[debug] [2023-03-12T13:23:32.294Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-12T13:23:32.295Z] [functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/handicrafts-8852a/us-central1/api, mapping to path=/"}}
+[debug] [2023-03-12T13:23:32.295Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-12T13:23:32.303Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 44.719ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 44.719ms"}}
+[debug] [2023-03-12T13:23:32.350Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE"}}
+[debug] [2023-03-12T13:23:32.350Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T13:23:38.070Z] [work-queue] {"queuedWork":["/handicrafts-8852a/us-central1/api/payments-2023-03-12T13:23:38.070Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T13:23:38.071Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/handicrafts-8852a/us-central1/api/payments-2023-03-12T13:23:38.070Z"],"workRunningCount":1}
+[debug] [2023-03-12T13:23:38.071Z] Accepted request GET /handicrafts-8852a/us-central1/api/payments --> us-central1-api
+[debug] [2023-03-12T13:23:38.076Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-12T13:23:38.077Z] [functions] Got req.url=/handicrafts-8852a/us-central1/api/payments, mapping to path=/payments {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/handicrafts-8852a/us-central1/api/payments, mapping to path=/payments"}}
+[debug] [2023-03-12T13:23:38.077Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-12T13:23:38.078Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 58.4886ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 58.4886ms"}}
+[debug] [2023-03-12T13:23:38.140Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: IDLE"}}
+[debug] [2023-03-12T13:23:38.141Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T13:26:16.465Z] [work-queue] {"queuedWork":["/handicrafts-8852a/us-central1/api/payments/create-2023-03-12T13:26:16.465Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T13:26:16.466Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/handicrafts-8852a/us-central1/api/payments/create-2023-03-12T13:26:16.465Z"],"workRunningCount":1}
+[debug] [2023-03-12T13:26:16.466Z] Accepted request POST /handicrafts-8852a/us-central1/api/payments/create?total=100 --> us-central1-api
+[debug] [2023-03-12T13:26:16.473Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-12T13:26:16.473Z] [functions] Got req.url=/handicrafts-8852a/us-central1/api/payments/create?total=100, mapping to path=/payments/create?total=100 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/handicrafts-8852a/us-central1/api/payments/create?total=100, mapping to path=/payments/create?total=100"}}
+[debug] [2023-03-12T13:26:16.474Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-12T13:26:16.475Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: BUSY"}}
+[info] >  Payment request received BOOM!!! for this amount >>> 100 {"user":"Payment request received BOOM!!! for this amount >>> 100","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received BOOM!!! for this amount >>> 100"}}
+[info] >  C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\index.js:17 {"user":"C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\index.js:17\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\index.js:17\r"}}
+[info] >      const paymentIntent = await stripe.paymentIntent.create({ {"user":"    const paymentIntent = await stripe.paymentIntent.create({\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     const paymentIntent = await stripe.paymentIntent.create({\r"}}
+[info] >                                                       ^ {"user":"                                                     ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m                                                      ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  TypeError: Cannot read properties of undefined (reading 'create') {"user":"TypeError: Cannot read properties of undefined (reading 'create')\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m TypeError: Cannot read properties of undefined (reading 'create')\r"}}
+[info] >      at C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\index.js:17:54 {"user":"    at C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\index.js:17:54\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\index.js:17:54\r"}}
+[info] >      at Layer.handle [as handle_request] (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\layer.js:95:5)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\layer.js:95:5)\r"}}
+[info] >      at next (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\route.js:144:13) {"user":"    at next (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\route.js:144:13)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\route.js:144:13)\r"}}
+[info] >      at Route.dispatch (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\route.js:114:3) {"user":"    at Route.dispatch (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\route.js:114:3)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Route.dispatch (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\route.js:114:3)\r"}}
+[info] >      at Layer.handle [as handle_request] (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\layer.js:95:5)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\layer.js:95:5)\r"}}
+[info] >      at C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\index.js:284:15 {"user":"    at C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\index.js:284:15\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\index.js:284:15\r"}}
+[info] >      at Function.process_params (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\index.js:346:12) {"user":"    at Function.process_params (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\index.js:346:12)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.process_params (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\index.js:346:12)\r"}}
+[info] >      at next (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\index.js:280:10) {"user":"    at next (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\index.js:280:10)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at next (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\index.js:280:10)\r"}}
+[info] >      at jsonParser (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\body-parser\lib\types\json.js:119:7) {"user":"    at jsonParser (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\body-parser\\lib\\types\\json.js:119:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at jsonParser (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\body-parser\\lib\\types\\json.js:119:7)\r"}}
+[info] >      at Layer.handle [as handle_request] (C:\Users\91869\Desktop\REACTTT\SC Hack\artisans\functions\node_modules\express\lib\router\layer.js:95:5) {"user":"    at Layer.handle [as handle_request] (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\layer.js:95:5)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Layer.handle [as handle_request] (C:\\Users\\91869\\Desktop\\REACTTT\\SC Hack\\artisans\\functions\\node_modules\\express\\lib\\router\\layer.js:95:5)\r"}}
+[error] i  Request to function failed: Error: socket hang up {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Request to function failed: Error: socket hang up"}}
+[debug] [2023-03-12T13:26:16.596Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-12T13:26:16.603Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: exited"}}
+[debug] [2023-03-12T13:26:16.603Z] [worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ae1bcccb-c7f0-45c0-a31e-b4a5e36fcf59]: FINISHED"}}
